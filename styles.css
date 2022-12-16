@@ -83,6 +83,7 @@ label {
   background-color: #fff0ee;
   color: #bd301d;
   font-weight: bold;
+  accent-color: #bd301d;
 }
 
 .radio:last-child {
@@ -113,6 +114,13 @@ input[type="radio"] {
   border: none;
   border-radius: 5px;
   margin-bottom: 8px;
+}
+
+button {
+  transition: transform(0.05s);
+}
+button:active {
+  transform: scale(0.96);
 }
 
 /* modal */
